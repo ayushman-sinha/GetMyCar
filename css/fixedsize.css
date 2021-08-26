@@ -1,0 +1,304 @@
+/*
+THis class is used to specify the height of the nav bar
+*/
+
+#web_adj
+{
+    display: flex;
+   margin:4px 20px 6px 0px ;
+    
+}
+#grad1
+{
+    width:100%;
+    height:1000px;
+    background-image: linear-gradient(to bottom right, rgba(78, 67, 67, 0.5), rgba(8, 8, 8,1) 60%);
+   
+}
+.pos_collapse
+{
+    position: relative;
+   z-index:6;
+}
+.web_name
+{
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    color: whitesmoke;
+    animation : animate_head 1.0s linear infinite;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+   
+}
+.nav_edit
+    {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+    }
+
+@keyframes animate_head
+ {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+#search_adjust
+{
+   
+   margin-top: 4px;
+   margin-right:14px;
+}
+.size_fix
+{
+    display:flex;
+    width:auto;
+    height:70px;
+   
+}
+#size_fix1
+{
+
+}
+.size_increase_nav
+{
+    font-family: 'Open Sans', sans-serif;
+ font-size: 20px;
+ font-style: italic;
+}
+.collapse_navi
+{
+    display:flex;
+    margin: 80px 0px 80px 4px;
+   align-self:baseline;
+
+    
+    
+}
+.cannot_select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.carousel_cont1
+{
+    
+    margin-top:-925px;
+    width:100%;
+    height:12em;
+  /*  background-image: linear-gradient(to bottom , rgba(78, 67, 67, 0.5), rgba(8, 8, 8,1)60%); */
+    
+    display:table;
+
+}
+
+.carousel_text
+{
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-size:36px;
+    text-shadow:-4px 4px 20px rgb(5, 5, 5);
+}
+#carousel_contain
+{
+    display: flex;
+    align-items: baseline;
+    width:77%;
+    box-shadow:2px 2px 5px rgb(15, 15, 15);
+}
+#banner1
+{
+    width:auto;
+    display:flex;
+    padding: 20px;
+    margin-top: 1.45em;
+    margin-left:1.2em;
+   align-items: center;
+  
+}
+.banner1_text
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    font-size:3.75vw;
+    color: blanchedalmond;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 60px;
+    text-shadow: 3px -3px 5px rgba(50, 53, 37, 0.801);
+    text-align: center;
+  
+    
+}
+#banner2
+{
+    margin-left: 40em;
+}
+.banner_small_text
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-size:1.75vw;
+    color: blanchedalmond;
+    font-style: italic;
+}
+
+.imag_news1
+{
+   
+    display:flex;
+    align-self:center;
+    width:38em;
+    height:21em;
+    margin-left: 3em;
+    margin-top: 5em;
+    box-shadow: 2em 1em 0.8em rgba(8, 8, 8,1);
+  
+}
+.imag_news2
+{
+   
+    display:flex;
+    align-self:center;
+    width:38em;
+    height:21em;
+    margin-right:20px;
+    margin-top: 8em;
+    box-shadow: 2em 1em 0.8em rgba(8, 8, 8,1);
+  
+}
+
+
+
+.text_head_news1
+{
+    margin-top: 1.16em;
+    margin-left: 0.18em;
+    line-height:65px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 5px -5px 2px rgba(8, 8, 8,0.7);
+    font-size:4.4em;
+   color:whitesmoke;
+   
+  
+}
+
+.text_head_news2
+{
+      margin-top:1.0em;
+    margin-left: 0.18em;
+    line-height:65px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 5px -5px 2px rgba(8, 8, 8,0.7);
+    font-size:4.4em;
+   color:whitesmoke; 
+}
+.head_anim1
+{
+ transition: margin-left 2s;
+}
+.head_anim1:hover
+{
+margin-left: 2em;
+}
+.head_anim2
+{
+ transition: margin-left 2s;
+}
+.head_anim2:hover
+{
+margin-left: 2em;
+}
+
+.text_below_news1
+{
+    margin-top: 0.1em;
+    margin-left: 0.4em;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    font-size:1.4em ;
+    text-align:justify ;
+}
+.text_below_news2
+{
+    margin-top: 1em;
+    margin-left: 0.3m;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    font-size:1.4em ;
+    text-align:justify ;
+}
+.pic_anim
+{
+    transition: margin-left 2s;
+}
+.pic_anim:hover
+{
+   margin-left: 2em;
+}
+.contain_2
+{
+   
+  
+   margin-top: -18em;
+   margin-left: -5em;
+ width: 700px;
+ background-image: linear-gradient(to bottom right ,  rgba(8, 8, 8,1)50%,rgb(46, 44, 44));
+ height:250px;
+
+}
+.head_emp
+{
+    color:lightgoldenrodyellow;
+    text-shadow: 1px 1px 1px rgba(78, 67, 67, 0.5);
+}
+.modal_size
+{
+margin-top: -6em;
+}
+::selection {
+    color: whitesmoke;
+    background: rgb(70, 70, 65);
+  }
+  .hover05 figure img {
+	margin-left: 30px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover05 figure:hover img {
+	margin-left: 0;
+}
+
+.footer_text
+{
+    font-family : Quicksand;
+    text-shadow:  1px 2px black;
+}
+.footer_heading
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+    
+     
+    
+    }
