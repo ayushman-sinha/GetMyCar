@@ -1,4 +1,4 @@
-/*
+ /*
 THis class is used to specify the height of the nav bar
 */
 
@@ -160,8 +160,8 @@ THis class is used to specify the height of the nav bar
    
     display:flex;
     align-self:center;
-    width:38em;
-    height:21em;
+    width:43vw;
+    height:24vw;
     margin-left: 3em;
     margin-top: 5em;
     box-shadow: 2em 1em 0.8em rgba(8, 8, 8,1);
@@ -172,14 +172,19 @@ THis class is used to specify the height of the nav bar
    
     display:flex;
     align-self:center;
-    width:38em;
-    height:21em;
+    width:40vw;
+    height:22vw;
     margin-right:20px;
     margin-top: 8em;
     box-shadow: 2em 1em 0.8em rgba(8, 8, 8,1);
   
 }
-
+.imag_resi
+{
+    
+    
+    width:auto;
+}
 
 
 .text_head_news1
